@@ -25,34 +25,40 @@ BASE = "https://services.leadconnectorhq.com"
 def export_contacts():
 
     contacts = []
-    start_after = None
+
+    url = f"{BASE}/contacts/"
+
+    params = {
+        "locationId": LOCATION_ID,
+        "limit": 100
+    }
+
+    total = None
 
     while True:
 
-        params = {
-            "locationId": LOCATION_ID,
-            "limit": 100
-        }
-
-        if start_after:
-            params["startAfter"] = start_after
-
         r = requests.get(
-            f"{BASE}/contacts/",
+            url,
             headers=HEADERS_CONTACTS,
             params=params
         )
 
-        r.raise_for_status()
+        if r.status_code != 200:
+            print(r.text)
+            r.raise_for_status()
 
         data = r.json()
+
+        if total is None:
+            total = data["meta"]["total"]
+            print(f"Total contacts according to API: {total:,}")
 
         batch = data.get("contacts", [])
 
         if not batch:
             break
 
-        print(f"Fetched {len(batch)} contacts")
+        print(f"Fetched {len(batch)} contacts | Total collected: {len(contacts)+len(batch)}")
 
         for c in batch:
 
@@ -70,7 +76,6 @@ def export_contacts():
                 "tags": ",".join(c.get("tags", []))
             }
 
-            # Merge attribution values
             row["utm_source"] = ",".join(
                 sorted(set(a.get("source", "") for a in attributions if a.get("source")))
             )
@@ -87,14 +92,29 @@ def export_contacts():
                 sorted(set(a.get("utmSessionSource", "") for a in attributions if a.get("utmSessionSource")))
             )
 
+            row["page_urls"] = ",".join(
+                sorted(set(a.get("pageUrl", "") for a in attributions if a.get("pageUrl")))
+            )
+
+            row["referrers"] = ",".join(
+                sorted(set(a.get("referrer", "") for a in attributions if a.get("referrer")))
+            )
+
             contacts.append(row)
 
-        start_after = batch[-1]["startAfter"]
+        next_page = data.get("meta", {}).get("nextPageUrl")
+
+        if not next_page:
+            break
+
+        # Next request already contains the correct cursor parameters.
+        url = next_page
+        params = None
 
     df = pd.DataFrame(contacts)
     df.to_csv("contacts.csv", index=False)
 
-    print(f"Saved {len(df)} contacts")
+    print(f"\nSaved {len(df):,} contacts to contacts.csv")
     
 def export_opportunities():
 
