@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Export the latest 30 won clients from a GoHighLevel pipeline to CSV.
+"""Export the latest 30 lost clients from a GoHighLevel pipeline to CSV.
 
 Required .env values:
-  GHL_BEARER_TOKEN, PIPELINE_ID, LOCATION_ID
+    GHL_BEARER_TOKEN, PIPELINE_ID, LOCATION_ID
 
 Optional values:
-  None.
+    None.
 """
 
 from __future__ import annotations
@@ -24,7 +24,6 @@ from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parent
 GHL_BASE = "https://services.leadconnectorhq.com"
-ALLOWED_OWNER_FIRST_NAMES = {"haitham", "daniel", "christian"}
 
 
 def load_dotenv(path: Path) -> None:
@@ -82,7 +81,7 @@ def won_opportunities(
         params: dict[str, Any] = {
             "location_id": location_id,
             "pipeline_id": pipeline_id,
-            "status": "won",
+            "status": "lost",
             "order": "added_desc",
             "limit": 100,
         }
@@ -96,12 +95,9 @@ def won_opportunities(
         )
         batch = result.get("opportunities", [])
         for lead in batch:
-            owner_name = owners.get(str(lead.get("assignedTo") or ""), "")
-            first_name = owner_name.strip().split(maxsplit=1)[0].casefold() if owner_name.strip() else ""
-            if first_name in ALLOWED_OWNER_FIRST_NAMES:
-                matched.append(lead)
-                if len(matched) == 30:
-                    return matched
+            matched.append(lead)
+            if len(matched) == 30:
+                return matched
         meta = result.get("meta", {})
         next_start = meta.get("startAfter")
         next_id = meta.get("startAfterId")
@@ -154,7 +150,7 @@ def build_rows(
             "lead_name": lead.get("name") or contact.get("name", ""),
             "contact_id": contact_id,
             "contact_email": email,
-            "won_at": lead.get("lastStatusChangeAt", ""),
+            "lost_at": lead.get("lastStatusChangeAt", ""),
             "opportunity_value": lead.get("monetaryValue", ""),
             "status": lead.get("status", ""),
             "owner_id": lead.get("assignedTo", ""),
@@ -171,15 +167,15 @@ def main() -> None:
     pipeline_id = require_env("PIPELINE_ID")
     owners = owner_names(ghl_token, location_id)
     leads = won_opportunities(ghl_token, location_id, pipeline_id, owners)
-    print(f"Found {len(leads)} won opportunities for Haitham, Daniel, or Christian; writing client CSV...")
+    print(f"Found {len(leads)} lost opportunities; writing client CSV...")
     rows = build_rows(ghl_token, leads, owners)
 
     output_dir = ROOT / "exports"
     output_dir.mkdir(exist_ok=True)
     stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
-    output_path = output_dir / f"last_30_won_clients_{stamp}.csv"
+    output_path = output_dir / f"last_30_lost_clients_{stamp}.csv"
     columns = [
-        "lead_rank", "opportunity_id", "lead_name", "contact_id", "contact_email", "won_at", "opportunity_value", "status", "owner_id", "owner_name",
+        "lead_rank", "opportunity_id", "lead_name", "contact_id", "contact_email", "lost_at", "opportunity_value", "status", "owner_id", "owner_name",
     ]
     with output_path.open("w", newline="", encoding="utf-8-sig") as file:
         writer = csv.DictWriter(file, fieldnames=columns, extrasaction="ignore")
