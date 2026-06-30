@@ -1,0 +1,91 @@
+pipeline_id,pipeline_name,stage_id,stage_name,stage_position
+aqPncbQZVmdxDHPWzGNJ,LG.1- 📧 Email / Leads Pipeline,0277d808-f2e5-4b1b-9e6b-da7b38022e66,0.0- MAIN - Interesting,0
+aqPncbQZVmdxDHPWzGNJ,LG.1- 📧 Email / Leads Pipeline,489f2f51-0fd6-4a02-a587-9a987f86587d,0.1- Intrs - No Phone,1
+aqPncbQZVmdxDHPWzGNJ,LG.1- 📧 Email / Leads Pipeline,74b92bab-d730-4e51-b66e-2948a1cc3612,0.2- Intrs - Coudn't catch Country,2
+aqPncbQZVmdxDHPWzGNJ,LG.1- 📧 Email / Leads Pipeline,336e1046-0138-4ca1-bfc5-caa6067ac1db,1.1- APAC - Interesting,3
+aqPncbQZVmdxDHPWzGNJ,LG.1- 📧 Email / Leads Pipeline,8b9e7f09-2945-4c7c-83ba-df10b9557dd2,1.2- Americas - Interesting,4
+aqPncbQZVmdxDHPWzGNJ,LG.1- 📧 Email / Leads Pipeline,300a4482-bada-4f8b-96a6-f173e08dfeab,1.3- EMEA - Interesting,5
+aqPncbQZVmdxDHPWzGNJ,LG.1- 📧 Email / Leads Pipeline,3914f72d-43ea-42c3-9561-dfb455e3f6ca,2.1- Masterclass Sent,6
+aqPncbQZVmdxDHPWzGNJ,LG.1- 📧 Email / Leads Pipeline,e6ae14ab-0869-45d4-bb78-236b45d0fca6,2.2- Link Sent,7
+aqPncbQZVmdxDHPWzGNJ,LG.1- 📧 Email / Leads Pipeline,90729e63-3c7f-4125-8668-8c44e3df41af,9.1- Call Booked,8
+Rx4VYfV3T2jRe0vAFAWW,SL.1- 📅 Sales Pipeline,60089a0a-ce3f-44e0-87dc-eb8668c289e5,0.0- Clarity Call Booked [CC],0
+Rx4VYfV3T2jRe0vAFAWW,SL.1- 📅 Sales Pipeline,520bc2c2-8fe4-44db-b669-2a80038a0fde,1.1- Unqualified for CC (before CC),1
+Rx4VYfV3T2jRe0vAFAWW,SL.1- 📅 Sales Pipeline,dee38f75-839a-4157-94be-79265e5cb1b7,1.2- Recontact for the Next Step (after CC),2
+Rx4VYfV3T2jRe0vAFAWW,SL.1- 📅 Sales Pipeline,372af756-57f2-463b-a77b-5a308f26d7a7,2.1- Sales Call Booked [SC] (Partnership),3
+Rx4VYfV3T2jRe0vAFAWW,SL.1- 📅 Sales Pipeline,19c7275c-4113-43c7-8045-f51b4e891dc1,3.1- Assessment Call Booked [AC],4
+Rx4VYfV3T2jRe0vAFAWW,SL.1- 📅 Sales Pipeline,204e13ea-5554-41a7-b7ff-a5be180f17e7,4.1- No Show [CC/PC/FC],5
+Rx4VYfV3T2jRe0vAFAWW,SL.1- 📅 Sales Pipeline,0d13da40-3870-4994-b5f5-01701d6e871b,4.2- Call Cancelled [CC/PC/FC],6
+Rx4VYfV3T2jRe0vAFAWW,SL.1- 📅 Sales Pipeline,e4738452-f513-443f-b3ca-41efba318666,5.1- Disqualifed as a Paid Customer (afrer CC/SC),7
+Rx4VYfV3T2jRe0vAFAWW,SL.1- 📅 Sales Pipeline,e48e31a4-ff15-488a-9fc8-1625b2d3a387,5.2- Follow-up Call Booked [FC],8
+Rx4VYfV3T2jRe0vAFAWW,SL.1- 📅 Sales Pipeline,e9198811-77a6-496a-9c5c-6f96a6b0553e,6.1- Nurturing / Action Required,9
+Rx4VYfV3T2jRe0vAFAWW,SL.1- 📅 Sales Pipeline,e106d305-e168-4836-a0b2-a7bbd1e1e345,7.1- Invoice Sent,10
+Rx4VYfV3T2jRe0vAFAWW,SL.1- 📅 Sales Pipeline,a38d4dcb-f5c3-485b-987f-7ea835f1a4e7,7.2- Re-Contact After 30 Days,11
+Rx4VYfV3T2jRe0vAFAWW,SL.1- 📅 Sales Pipeline,e09d03fe-2d42-4c72-911d-5b967a7a391c,8.1- Paid Customer,12
+Rx4VYfV3T2jRe0vAFAWW,SL.1- 📅 Sales Pipeline,d8cbd9c6-e3ff-4415-b622-4e3e5cf20907,8.2- Closed Lost,13
+Rx4VYfV3T2jRe0vAFAWW,SL.1- 📅 Sales Pipeline,256a4c03-8b7e-4fe4-a509-c0db7ba5ce43,9.2- Filtered Out - in Free Audit Pipeline,14
+Rx4VYfV3T2jRe0vAFAWW,SL.1- 📅 Sales Pipeline,a206a1fb-91f5-4c05-933c-22d445b35f8e,E.0- Cancel - No Reminders,15
+Rx4VYfV3T2jRe0vAFAWW,SL.1- 📅 Sales Pipeline,a5bdfde6-ce8f-4f5e-be21-2debb21511fd,E.1- Assessment sent $80,16
+Rx4VYfV3T2jRe0vAFAWW,SL.1- 📅 Sales Pipeline,c394a34f-99e0-4c00-8c3d-2042c9070849,E.2- Assessment sent $300,17
+Rx4VYfV3T2jRe0vAFAWW,SL.1- 📅 Sales Pipeline,4450007c-e27d-4d87-a731-474b335d3321,2.1- Assessment Sent $100,18
+Rx4VYfV3T2jRe0vAFAWW,SL.1- 📅 Sales Pipeline,cf99583a-aea9-4a90-88d5-be8f276a8309,2.2- Assessment Completed,19
+GQWS3aQj2wjknQQoQsXd,SL.2- 🔍 Free Audit Pipeline,60d1f8df-a650-4981-ad89-ac3a65b76a61,0.0- Leads,0
+GQWS3aQj2wjknQQoQsXd,SL.2- 🔍 Free Audit Pipeline,dcda4883-83c1-48b0-94d0-cd0cfff7b80e,1- Follow-up WA MSG - WhatsApp,1
+GQWS3aQj2wjknQQoQsXd,SL.2- 🔍 Free Audit Pipeline,5513ca25-ac97-496b-9e83-81be11da4578,2- Recall Later (No Answer / Busy),2
+GQWS3aQj2wjknQQoQsXd,SL.2- 🔍 Free Audit Pipeline,d81a7d92-341e-44ff-9e78-a524ca5da5b6,3.1- Contacted,3
+GQWS3aQj2wjknQQoQsXd,SL.2- 🔍 Free Audit Pipeline,2101f4a5-7efa-4f1b-89f9-98a0aaedf4a2,3.2- Not Interested,4
+GQWS3aQj2wjknQQoQsXd,SL.2- 🔍 Free Audit Pipeline,7edbe9c1-ab32-4485-bd71-12e72506f971,3.3- Unqualified for Assessment Call,5
+GQWS3aQj2wjknQQoQsXd,SL.2- 🔍 Free Audit Pipeline,59e7869a-afd5-4ab9-b51f-de5aacf8a202,4.1.A- WA-  Requested Audit Info via WhatsApp,6
+GQWS3aQj2wjknQQoQsXd,SL.2- 🔍 Free Audit Pipeline,163811ba-4947-4c46-b61f-1d53c01eca35,4.1.B- @-  Requested Audit Info via Email,7
+GQWS3aQj2wjknQQoQsXd,SL.2- 🔍 Free Audit Pipeline,bb0e2ee1-bb49-4072-820e-0bdb39694305,4.2- Audit Info Sent,8
+GQWS3aQj2wjknQQoQsXd,SL.2- 🔍 Free Audit Pipeline,04c0eca7-ab17-405a-8296-cd0af42c7356,5.1- Meeting Booked - Auto,9
+GQWS3aQj2wjknQQoQsXd,SL.2- 🔍 Free Audit Pipeline,951a53c8-7279-4b46-bf80-04c0f5520bc5,5.2- Info Submitted - Auto PEN,10
+GQWS3aQj2wjknQQoQsXd,SL.2- 🔍 Free Audit Pipeline,be90d023-582c-4b90-a5ea-2fd82d2396a7,5.3- Submission Incomplete,11
+GQWS3aQj2wjknQQoQsXd,SL.2- 🔍 Free Audit Pipeline,c064d325-451b-4a4c-952c-b250a142f164,5.4- Submission Complete,12
+GQWS3aQj2wjknQQoQsXd,SL.2- 🔍 Free Audit Pipeline,8b0898fe-c44b-45cd-96f7-631e0cae3c47,6.1- Meeting Confirmed,13
+GQWS3aQj2wjknQQoQsXd,SL.2- 🔍 Free Audit Pipeline,72e78ce5-b441-49ad-956a-65a1a37b7475,7.1- No-Show / Canceled (Reschedule),14
+GQWS3aQj2wjknQQoQsXd,SL.2- 🔍 Free Audit Pipeline,77fe9638-c488-42b1-9210-eeac9ca1a606,7.2- Showed Up - Auto-PEN,15
+GQWS3aQj2wjknQQoQsXd,SL.2- 🔍 Free Audit Pipeline,af0bb219-b422-4ba6-aec1-ce40298c819c,8.1- Nurturing / Action Required,16
+GQWS3aQj2wjknQQoQsXd,SL.2- 🔍 Free Audit Pipeline,7914927a-311b-46a7-95d8-b3fed57a8b17,8.2- Invoice Sent,17
+GQWS3aQj2wjknQQoQsXd,SL.2- 🔍 Free Audit Pipeline,21f17e34-0348-4353-a2c7-d912eea1b57e,8.3- CRO Nurturing,18
+GQWS3aQj2wjknQQoQsXd,SL.2- 🔍 Free Audit Pipeline,28a57c84-ab68-4fa2-9d88-bc1b53e18943,8.4- Paid Customer,19
+GQWS3aQj2wjknQQoQsXd,SL.2- 🔍 Free Audit Pipeline,2f4aa022-8ae9-4f88-89d1-3788e96de20c,9.1- Disqualified As Paid Customer,20
+GQWS3aQj2wjknQQoQsXd,SL.2- 🔍 Free Audit Pipeline,42fa58ce-88c2-4d8c-84c0-3cc75d040e63,9.2- Filtered Out - in Sales Pipeline,21
+qQd708AooaRDEIWqxXgG,DL.1- ⭐ OASys Client Journey,7b13ad01-884f-40b8-a283-c682a91907f5,0.1- Pre-Onboarding,0
+qQd708AooaRDEIWqxXgG,DL.1- ⭐ OASys Client Journey,3d917e39-b55c-4fdd-a8bc-dee9c5871d1d,0.2- Post-Onboarding,1
+qQd708AooaRDEIWqxXgG,DL.1- ⭐ OASys Client Journey,974f5974-39ce-483b-9c08-3c2e006e2f21,Week 1,2
+qQd708AooaRDEIWqxXgG,DL.1- ⭐ OASys Client Journey,ee0f9d5d-f958-463d-8ec5-142f5d2b7348,Week 2,3
+qQd708AooaRDEIWqxXgG,DL.1- ⭐ OASys Client Journey,3f9262c7-b2f8-4840-b402-cb98844e6005,Week 3,4
+qQd708AooaRDEIWqxXgG,DL.1- ⭐ OASys Client Journey,a40898ec-5acc-4781-8297-c4e1a527ee9d,Week 4,5
+qQd708AooaRDEIWqxXgG,DL.1- ⭐ OASys Client Journey,273da7fc-635f-4e98-a73a-cf566fd84126,Week 5,6
+qQd708AooaRDEIWqxXgG,DL.1- ⭐ OASys Client Journey,ba7c5385-2a6c-484a-8af9-609c3325a307,Week 6,7
+qQd708AooaRDEIWqxXgG,DL.1- ⭐ OASys Client Journey,ab2f95d6-38fe-40d0-91c4-b8863f9526e3,Week 7,8
+qQd708AooaRDEIWqxXgG,DL.1- ⭐ OASys Client Journey,41bce001-fda1-4e1b-8e00-f173153ee359,6wk Completion (Tier-2),9
+qQd708AooaRDEIWqxXgG,DL.1- ⭐ OASys Client Journey,396836e2-c975-4a3f-a643-00d4a34c03e0,Week 8,10
+qQd708AooaRDEIWqxXgG,DL.1- ⭐ OASys Client Journey,752268b7-4337-48d4-ae9e-403b706dcd3e,Week 9,11
+qQd708AooaRDEIWqxXgG,DL.1- ⭐ OASys Client Journey,14df359c-6108-403d-bed7-e9d4ad8370dd,Week 10,12
+qQd708AooaRDEIWqxXgG,DL.1- ⭐ OASys Client Journey,574e4428-2804-4f22-a42c-6b1e3d48e823,Week 11,13
+qQd708AooaRDEIWqxXgG,DL.1- ⭐ OASys Client Journey,f3937cbf-d2f2-40d0-923a-e916da1b0916,Week 12,14
+qQd708AooaRDEIWqxXgG,DL.1- ⭐ OASys Client Journey,59748e6c-70dc-46c4-a40e-72ecfea07bee,12wk Completion (Tier-1),15
+eTNhWzFcjvgLmgFS7lN7,US.1- ➕ Upselling Pipeline,02e3915a-b4bb-4dc2-beb4-3343a153e8a4,New Lead,0
+eTNhWzFcjvgLmgFS7lN7,US.1- ➕ Upselling Pipeline,679a85c2-e2fb-4ed9-9ca9-bff11f12f585,Contacted,1
+eTNhWzFcjvgLmgFS7lN7,US.1- ➕ Upselling Pipeline,4cdc7e34-e6a7-4a6b-96eb-73562bf352e5,Proposal Sent,2
+eTNhWzFcjvgLmgFS7lN7,US.1- ➕ Upselling Pipeline,18cd003d-06ca-4d98-971e-22877f918053,Closed,3
+ml5pPvZqpEyostmSBcag,TT.1- 🧪 Testing Pipeline,b9c8f35d-67a8-418e-b945-8d675c25ec47,T- New Lead,0
+ml5pPvZqpEyostmSBcag,TT.1- 🧪 Testing Pipeline,f47fff43-f9ef-441d-bc09-15697f75ad59,T- Contacted,1
+ml5pPvZqpEyostmSBcag,TT.1- 🧪 Testing Pipeline,3f718ac6-c03e-486f-975b-996423895113,T-  Proposal Sent,2
+ml5pPvZqpEyostmSBcag,TT.1- 🧪 Testing Pipeline,2e65b012-8cf8-4ef3-b333-f45c5079fb82,T- Closed,3
+ml5pPvZqpEyostmSBcag,TT.1- 🧪 Testing Pipeline,583c83db-f111-47df-9cc7-ae30284c2bb8,T- ST- Working,4
+ml5pPvZqpEyostmSBcag,TT.1- 🧪 Testing Pipeline,cb84d832-b466-448e-a8f5-3e37feb9f0ae,T- ST- Not Dynamic,5
+HXxnLxh8WxqUra0Jf2p6,Arc.1- ⁉️ QA Session,e0848104-4fd4-4503-8e9b-70cab6ddae92,Email Sent,0
+HXxnLxh8WxqUra0Jf2p6,Arc.1- ⁉️ QA Session,526a281e-f228-4a6f-9584-4dacfbd6b379,Clicked,1
+HXxnLxh8WxqUra0Jf2p6,Arc.1- ⁉️ QA Session,9e852062-1bd9-4241-b844-efe6242b7fc4,Registered,2
+HXxnLxh8WxqUra0Jf2p6,Arc.1- ⁉️ QA Session,91ff15d6-5531-4e8a-be59-9c047e52dbb8,Attended,3
+oKcMBIaPQIehNwAjucuI,Arc.2- 🗑️ CAT,09fcae40-baac-487b-b03c-d4b013551e6b,New Lead,0
+oKcMBIaPQIehNwAjucuI,Arc.2- 🗑️ CAT,816f8024-d78d-4066-a2d8-c4925a2fe66b,Contacted,1
+oKcMBIaPQIehNwAjucuI,Arc.2- 🗑️ CAT,3039bbc8-d0e4-4620-bbe6-3ad67e27dd82,Closed,2
+yITDb4w2Ht0jKGkaIyPY,Arc.3- OLD Client's Journey,b82573b3-2451-4af0-911a-f6124c6f03e1,Onboarding,0
+yITDb4w2Ht0jKGkaIyPY,Arc.3- OLD Client's Journey,68526b4c-9893-4683-8899-46fa2482ce48,Navigating The Job Market,1
+yITDb4w2Ht0jKGkaIyPY,Arc.3- OLD Client's Journey,d3217e62-7815-4f0f-9df7-07903a752944,Online Application Best Practices,2
+yITDb4w2Ht0jKGkaIyPY,Arc.3- OLD Client's Journey,63e5a088-acb3-40df-af40-af6a55c23cc2,Networking,3
+yITDb4w2Ht0jKGkaIyPY,Arc.3- OLD Client's Journey,4128c782-56ab-4dbb-8ee0-fba1cbb51eec,Personal Branding,4
+yITDb4w2Ht0jKGkaIyPY,Arc.3- OLD Client's Journey,757ed1f0-855a-49d6-9637-a3fe821e1b6c,Interviewing,5

@@ -1,0 +1,18 @@
+Stage,Opportunities,Pipeline_Value,Avg_Age
+4.2- Call Cancelled [CC/PC/FC],108,0,821.4
+3.1- Assessment Call Booked [AC],9,0,128.6
+4.1- No Show [CC/PC/FC],31,0,768.1
+9.2- Filtered Out - in Free Audit Pipeline,7,0,865.4
+2.1- Sales Call Booked [SC] (Partnership),44,20000,186.1
+1.1- Unqualified for CC (before CC),83,0,1033.3
+0.0- Clarity Call Booked [CC],23,0,39.2
+E.0- Cancel - No Reminders,3,0,561.7
+7.2- Re-Contact After 30 Days,5,0,196
+E.1- Assessment sent $80,4,0,453.8
+2.2- Assessment Completed,9,17000,826.6
+1.2- Recontact for the Next Step (after CC),9,0,138.8
+8.1- Paid Customer,4,0,698.2
+7.1- Invoice Sent,13,85000,751.2
+5.1- Disqualifed as a Paid Customer (afrer CC/SC),14,0,47.4
+5.2- Follow-up Call Booked [FC],2,0,138
+6.1- Nurturing / Action Required,25,183000,195.6

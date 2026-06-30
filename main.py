@@ -52,9 +52,14 @@ contacts = contacts.drop_duplicates(subset="contact_id")
 # Booked Call?
 # -----------------------------
 
-booked = set(opps["contact_id"].dropna().unique())
+# Adjust this depending on how your GHL stores won deals
+won_opps = opps[
+    opps["status"].fillna("").str.lower().isin(["won", "closedwon", "closed_won"])
+]
 
-contacts["booked_call"] = contacts["contact_id"].isin(booked)
+won_contacts = set(won_opps["contact_id"].dropna().unique())
+
+contacts["won"] = contacts["contact_id"].isin(won_contacts)
 
 # -----------------------------
 # Normalise Acquisition Source
@@ -129,15 +134,13 @@ summary = (
     .groupby(["month", "acquisition_source"])
     .agg(
         leads=("contact_id", "count"),
-        clarity_calls=("booked_call", "sum")
+        won=("won", "sum")
     )
     .reset_index()
 )
 
 summary["conversion_rate"] = (
-    summary["clarity_calls"]
-    / summary["leads"]
-    * 100
+    summary["won"] / summary["leads"] * 100
 ).round(2)
 
 summary = summary.sort_values(
@@ -154,15 +157,13 @@ overall = (
     .groupby("acquisition_source")
     .agg(
         leads=("contact_id", "count"),
-        clarity_calls=("booked_call", "sum")
+        won=("won", "sum")
     )
     .reset_index()
 )
 
 overall["conversion_rate"] = (
-    overall["clarity_calls"]
-    / overall["leads"]
-    * 100
+    overall["won"] / overall["leads"] * 100
 ).round(2)
 
 overall = overall.sort_values(
