@@ -18,7 +18,8 @@ contacts["created_at"] = pd.to_datetime(
     errors="coerce"
 )
 
-contacts["month"] = contacts["created_at"].dt.to_period("M").astype(str)
+# Year instead of Month
+contacts["year"] = contacts["created_at"].dt.year
 
 # -----------------------------
 # Remove obvious junk
@@ -49,15 +50,18 @@ contacts = contacts[
 contacts = contacts.drop_duplicates(subset="contact_id")
 
 # -----------------------------
-# Booked Call?
+# Booked / Won?
 # -----------------------------
 
-# Adjust this depending on how your GHL stores won deals
 won_opps = opps[
-    opps["status"].fillna("").str.lower().isin(["won", "closedwon", "closed_won"])
+    opps["status"].fillna("").str.lower().isin(
+        ["won", "closedwon", "closed_won"]
+    )
 ]
 
-won_contacts = set(won_opps["contact_id"].dropna().unique())
+won_contacts = set(
+    won_opps["contact_id"].dropna().unique()
+)
 
 contacts["won"] = contacts["contact_id"].isin(won_contacts)
 
@@ -126,12 +130,12 @@ contacts["acquisition_source"] = contacts.apply(
 )
 
 # -----------------------------
-# Monthly Conversion
+# Yearly Conversion
 # -----------------------------
 
 summary = (
     contacts
-    .groupby(["month", "acquisition_source"])
+    .groupby(["year", "acquisition_source"])
     .agg(
         leads=("contact_id", "count"),
         won=("won", "sum")
@@ -144,12 +148,12 @@ summary["conversion_rate"] = (
 ).round(2)
 
 summary = summary.sort_values(
-    ["month", "conversion_rate"],
+    ["year", "conversion_rate"],
     ascending=[True, False]
 )
 
 # -----------------------------
-# Overall
+# Overall Conversion
 # -----------------------------
 
 overall = (
@@ -176,7 +180,7 @@ overall = overall.sort_values(
 # -----------------------------
 
 summary.to_csv(
-    "monthly_source_conversion.csv",
+    "yearly_source_conversion.csv",
     index=False
 )
 
@@ -192,8 +196,8 @@ contacts.to_csv(
 
 print("\nDone.\n")
 
-print(summary.head(20))
+print("===== Yearly Conversion =====")
+print(summary)
 
-print("\nOverall\n")
-
+print("\n===== Overall Conversion =====")
 print(overall)

@@ -1,0 +1,18 @@
+pipeline_id,stage_name,stage_position,Total_Opportunities,Over_30_Days,Over_60_Days,Over_90_Days,Avg_Age,Max_Age
+Rx4VYfV3T2jRe0vAFAWW,0.0- Clarity Call Booked [CC],0,23,1,1,1,39.5,758
+Rx4VYfV3T2jRe0vAFAWW,1.1- Unqualified for CC (before CC),1,83,83,83,83,1033.4,1170
+Rx4VYfV3T2jRe0vAFAWW,1.2- Recontact for the Next Step (after CC),2,9,5,3,3,139,771
+Rx4VYfV3T2jRe0vAFAWW,2.1- Sales Call Booked [SC] (Partnership),3,44,32,30,30,186.3,1078
+Rx4VYfV3T2jRe0vAFAWW,3.1- Assessment Call Booked [AC],4,9,5,5,5,128.6,409
+Rx4VYfV3T2jRe0vAFAWW,4.1- No Show [CC/PC/FC],5,31,25,25,25,768.3,1169
+Rx4VYfV3T2jRe0vAFAWW,4.2- Call Cancelled [CC/PC/FC],6,108,100,98,98,821.5,1132
+Rx4VYfV3T2jRe0vAFAWW,5.1- Disqualifed as a Paid Customer (afrer CC/SC),7,14,10,4,2,47.6,96
+Rx4VYfV3T2jRe0vAFAWW,5.2- Follow-up Call Booked [FC],8,2,2,2,2,138,138
+Rx4VYfV3T2jRe0vAFAWW,6.1- Nurturing / Action Required,9,25,15,9,5,196,1155
+Rx4VYfV3T2jRe0vAFAWW,7.1- Invoice Sent,10,13,13,13,11,751.2,1159
+Rx4VYfV3T2jRe0vAFAWW,7.2- Re-Contact After 30 Days,11,5,5,5,5,196,594
+Rx4VYfV3T2jRe0vAFAWW,8.1- Paid Customer,12,4,4,4,4,698.2,1013
+Rx4VYfV3T2jRe0vAFAWW,9.2- Filtered Out - in Free Audit Pipeline,14,7,7,7,7,865.4,1118
+Rx4VYfV3T2jRe0vAFAWW,E.0- Cancel - No Reminders,15,3,3,3,3,561.7,595
+Rx4VYfV3T2jRe0vAFAWW,E.1- Assessment sent $80,16,4,4,4,4,453.8,838
+Rx4VYfV3T2jRe0vAFAWW,2.2- Assessment Completed,19,9,9,9,9,826.7,974

@@ -1,0 +1,71 @@
+Quarter,pipeline_name,stage_id,stage_name,stage_position,Opportunities,Pipeline_Value,Avg_Age
+2023-Q2,SL.1- 📅 Sales Pipeline,520bc2c2-8fe4-44db-b669-2a80038a0fde,1.1- Unqualified for CC (before CC),1,26,0,1137.7
+2023-Q2,SL.1- 📅 Sales Pipeline,204e13ea-5554-41a7-b7ff-a5be180f17e7,4.1- No Show [CC/PC/FC],5,12,0,1147.3
+2023-Q2,SL.1- 📅 Sales Pipeline,0d13da40-3870-4994-b5f5-01701d6e871b,4.2- Call Cancelled [CC/PC/FC],6,8,0,1114
+2023-Q2,SL.1- 📅 Sales Pipeline,e9198811-77a6-496a-9c5c-6f96a6b0553e,6.1- Nurturing / Action Required,9,2,5000,1153.5
+2023-Q2,SL.1- 📅 Sales Pipeline,e106d305-e168-4836-a0b2-a7bbd1e1e345,7.1- Invoice Sent,10,7,85000,1136.1
+2023-Q2,SL.1- 📅 Sales Pipeline,256a4c03-8b7e-4fe4-a509-c0db7ba5ce43,9.2- Filtered Out - in Free Audit Pipeline,14,2,0,1118
+2023-Q3,SL.1- 📅 Sales Pipeline,520bc2c2-8fe4-44db-b669-2a80038a0fde,1.1- Unqualified for CC (before CC),1,30,0,1044.3
+2023-Q3,SL.1- 📅 Sales Pipeline,372af756-57f2-463b-a77b-5a308f26d7a7,2.1- Sales Call Booked [SC] (Partnership),3,1,0,1078
+2023-Q3,SL.1- 📅 Sales Pipeline,204e13ea-5554-41a7-b7ff-a5be180f17e7,4.1- No Show [CC/PC/FC],5,2,0,1050.5
+2023-Q3,SL.1- 📅 Sales Pipeline,0d13da40-3870-4994-b5f5-01701d6e871b,4.2- Call Cancelled [CC/PC/FC],6,11,0,1030.5
+2023-Q3,SL.1- 📅 Sales Pipeline,e09d03fe-2d42-4c72-911d-5b967a7a391c,8.1- Paid Customer,12,1,0,1013
+2023-Q3,SL.1- 📅 Sales Pipeline,256a4c03-8b7e-4fe4-a509-c0db7ba5ce43,9.2- Filtered Out - in Free Audit Pipeline,14,1,0,1006
+2023-Q4,SL.1- 📅 Sales Pipeline,520bc2c2-8fe4-44db-b669-2a80038a0fde,1.1- Unqualified for CC (before CC),1,17,0,976.4
+2023-Q4,SL.1- 📅 Sales Pipeline,204e13ea-5554-41a7-b7ff-a5be180f17e7,4.1- No Show [CC/PC/FC],5,4,0,957.5
+2023-Q4,SL.1- 📅 Sales Pipeline,0d13da40-3870-4994-b5f5-01701d6e871b,4.2- Call Cancelled [CC/PC/FC],6,34,0,969.8
+2023-Q4,SL.1- 📅 Sales Pipeline,e9198811-77a6-496a-9c5c-6f96a6b0553e,6.1- Nurturing / Action Required,9,1,0,964
+2023-Q4,SL.1- 📅 Sales Pipeline,e106d305-e168-4836-a0b2-a7bbd1e1e345,7.1- Invoice Sent,10,1,0,945
+2023-Q4,SL.1- 📅 Sales Pipeline,e09d03fe-2d42-4c72-911d-5b967a7a391c,8.1- Paid Customer,12,1,0,964
+2023-Q4,SL.1- 📅 Sales Pipeline,cf99583a-aea9-4a90-88d5-be8f276a8309,2.2- Assessment Completed,19,3,0,958
+2024-Q1,SL.1- 📅 Sales Pipeline,520bc2c2-8fe4-44db-b669-2a80038a0fde,1.1- Unqualified for CC (before CC),1,6,0,857.5
+2024-Q1,SL.1- 📅 Sales Pipeline,204e13ea-5554-41a7-b7ff-a5be180f17e7,4.1- No Show [CC/PC/FC],5,1,0,873
+2024-Q1,SL.1- 📅 Sales Pipeline,0d13da40-3870-4994-b5f5-01701d6e871b,4.2- Call Cancelled [CC/PC/FC],6,21,0,877.3
+2024-Q1,SL.1- 📅 Sales Pipeline,256a4c03-8b7e-4fe4-a509-c0db7ba5ce43,9.2- Filtered Out - in Free Audit Pipeline,14,2,0,877
+2024-Q1,SL.1- 📅 Sales Pipeline,a5bdfde6-ce8f-4f5e-be21-2debb21511fd,E.1- Assessment sent $80,16,1,0,838
+2024-Q1,SL.1- 📅 Sales Pipeline,cf99583a-aea9-4a90-88d5-be8f276a8309,2.2- Assessment Completed,19,3,0,854
+2024-Q2,SL.1- 📅 Sales Pipeline,60089a0a-ce3f-44e0-87dc-eb8668c289e5,0.0- Clarity Call Booked [CC],0,1,0,758
+2024-Q2,SL.1- 📅 Sales Pipeline,520bc2c2-8fe4-44db-b669-2a80038a0fde,1.1- Unqualified for CC (before CC),1,4,0,781.2
+2024-Q2,SL.1- 📅 Sales Pipeline,dee38f75-839a-4157-94be-79265e5cb1b7,1.2- Recontact for the Next Step (after CC),2,1,0,771
+2024-Q2,SL.1- 📅 Sales Pipeline,372af756-57f2-463b-a77b-5a308f26d7a7,2.1- Sales Call Booked [SC] (Partnership),3,2,0,764.5
+2024-Q2,SL.1- 📅 Sales Pipeline,204e13ea-5554-41a7-b7ff-a5be180f17e7,4.1- No Show [CC/PC/FC],5,1,0,768
+2024-Q2,SL.1- 📅 Sales Pipeline,0d13da40-3870-4994-b5f5-01701d6e871b,4.2- Call Cancelled [CC/PC/FC],6,20,0,774.3
+2024-Q3,SL.1- 📅 Sales Pipeline,e9198811-77a6-496a-9c5c-6f96a6b0553e,6.1- Nurturing / Action Required,9,1,0,684
+2024-Q3,SL.1- 📅 Sales Pipeline,cf99583a-aea9-4a90-88d5-be8f276a8309,2.2- Assessment Completed,19,3,17000,668
+2024-Q4,SL.1- 📅 Sales Pipeline,204e13ea-5554-41a7-b7ff-a5be180f17e7,4.1- No Show [CC/PC/FC],5,2,0,593
+2024-Q4,SL.1- 📅 Sales Pipeline,0d13da40-3870-4994-b5f5-01701d6e871b,4.2- Call Cancelled [CC/PC/FC],6,1,0,622
+2024-Q4,SL.1- 📅 Sales Pipeline,a38d4dcb-f5c3-485b-987f-7ea835f1a4e7,7.2- Re-Contact After 30 Days,11,1,0,594
+2024-Q4,SL.1- 📅 Sales Pipeline,256a4c03-8b7e-4fe4-a509-c0db7ba5ce43,9.2- Filtered Out - in Free Audit Pipeline,14,1,0,553
+2024-Q4,SL.1- 📅 Sales Pipeline,a206a1fb-91f5-4c05-933c-22d445b35f8e,E.0- Cancel - No Reminders,15,2,0,594
+2024-Q4,SL.1- 📅 Sales Pipeline,a5bdfde6-ce8f-4f5e-be21-2debb21511fd,E.1- Assessment sent $80,16,1,0,631
+2025-Q1,SL.1- 📅 Sales Pipeline,204e13ea-5554-41a7-b7ff-a5be180f17e7,4.1- No Show [CC/PC/FC],5,1,0,502
+2025-Q1,SL.1- 📅 Sales Pipeline,256a4c03-8b7e-4fe4-a509-c0db7ba5ce43,9.2- Filtered Out - in Free Audit Pipeline,14,1,0,509
+2025-Q1,SL.1- 📅 Sales Pipeline,a206a1fb-91f5-4c05-933c-22d445b35f8e,E.0- Cancel - No Reminders,15,1,0,497
+2025-Q2,SL.1- 📅 Sales Pipeline,372af756-57f2-463b-a77b-5a308f26d7a7,2.1- Sales Call Booked [SC] (Partnership),3,3,0,415
+2025-Q2,SL.1- 📅 Sales Pipeline,19c7275c-4113-43c7-8045-f51b4e891dc1,3.1- Assessment Call Booked [AC],4,1,0,409
+2025-Q2,SL.1- 📅 Sales Pipeline,204e13ea-5554-41a7-b7ff-a5be180f17e7,4.1- No Show [CC/PC/FC],5,1,0,411
+2025-Q2,SL.1- 📅 Sales Pipeline,e09d03fe-2d42-4c72-911d-5b967a7a391c,8.1- Paid Customer,12,2,0,408
+2025-Q3,SL.1- 📅 Sales Pipeline,204e13ea-5554-41a7-b7ff-a5be180f17e7,4.1- No Show [CC/PC/FC],5,1,0,299
+2025-Q3,SL.1- 📅 Sales Pipeline,0d13da40-3870-4994-b5f5-01701d6e871b,4.2- Call Cancelled [CC/PC/FC],6,1,0,349
+2025-Q3,SL.1- 📅 Sales Pipeline,e106d305-e168-4836-a0b2-a7bbd1e1e345,7.1- Invoice Sent,10,1,0,351
+2025-Q4,SL.1- 📅 Sales Pipeline,372af756-57f2-463b-a77b-5a308f26d7a7,2.1- Sales Call Booked [SC] (Partnership),3,10,0,207
+2025-Q4,SL.1- 📅 Sales Pipeline,19c7275c-4113-43c7-8045-f51b4e891dc1,3.1- Assessment Call Booked [AC],4,2,0,190
+2025-Q4,SL.1- 📅 Sales Pipeline,0d13da40-3870-4994-b5f5-01701d6e871b,4.2- Call Cancelled [CC/PC/FC],6,2,0,233
+2025-Q4,SL.1- 📅 Sales Pipeline,e9198811-77a6-496a-9c5c-6f96a6b0553e,6.1- Nurturing / Action Required,9,1,0,255
+2026-Q1,SL.1- 📅 Sales Pipeline,dee38f75-839a-4157-94be-79265e5cb1b7,1.2- Recontact for the Next Step (after CC),2,2,0,153
+2026-Q1,SL.1- 📅 Sales Pipeline,372af756-57f2-463b-a77b-5a308f26d7a7,2.1- Sales Call Booked [SC] (Partnership),3,14,0,144
+2026-Q1,SL.1- 📅 Sales Pipeline,19c7275c-4113-43c7-8045-f51b4e891dc1,3.1- Assessment Call Booked [AC],4,2,0,161
+2026-Q1,SL.1- 📅 Sales Pipeline,e4738452-f513-443f-b3ca-41efba318666,5.1- Disqualifed as a Paid Customer (afrer CC/SC),7,2,0,96
+2026-Q1,SL.1- 📅 Sales Pipeline,e48e31a4-ff15-488a-9fc8-1625b2d3a387,5.2- Follow-up Call Booked [FC],8,2,0,138
+2026-Q1,SL.1- 📅 Sales Pipeline,e106d305-e168-4836-a0b2-a7bbd1e1e345,7.1- Invoice Sent,10,2,0,168
+2026-Q1,SL.1- 📅 Sales Pipeline,a38d4dcb-f5c3-485b-987f-7ea835f1a4e7,7.2- Re-Contact After 30 Days,11,4,0,96.5
+2026-Q1,SL.1- 📅 Sales Pipeline,a5bdfde6-ce8f-4f5e-be21-2debb21511fd,E.1- Assessment sent $80,16,2,0,173
+2026-Q2,SL.1- 📅 Sales Pipeline,60089a0a-ce3f-44e0-87dc-eb8668c289e5,0.0- Clarity Call Booked [CC],0,22,0,6.8
+2026-Q2,SL.1- 📅 Sales Pipeline,dee38f75-839a-4157-94be-79265e5cb1b7,1.2- Recontact for the Next Step (after CC),2,6,0,29
+2026-Q2,SL.1- 📅 Sales Pipeline,372af756-57f2-463b-a77b-5a308f26d7a7,2.1- Sales Call Booked [SC] (Partnership),3,14,20000,18.4
+2026-Q2,SL.1- 📅 Sales Pipeline,19c7275c-4113-43c7-8045-f51b4e891dc1,3.1- Assessment Call Booked [AC],4,4,0,11.5
+2026-Q2,SL.1- 📅 Sales Pipeline,204e13ea-5554-41a7-b7ff-a5be180f17e7,4.1- No Show [CC/PC/FC],5,6,0,13
+2026-Q2,SL.1- 📅 Sales Pipeline,0d13da40-3870-4994-b5f5-01701d6e871b,4.2- Call Cancelled [CC/PC/FC],6,10,0,15.2
+2026-Q2,SL.1- 📅 Sales Pipeline,e4738452-f513-443f-b3ca-41efba318666,5.1- Disqualifed as a Paid Customer (afrer CC/SC),7,12,0,39.5
+2026-Q2,SL.1- 📅 Sales Pipeline,e9198811-77a6-496a-9c5c-6f96a6b0553e,6.1- Nurturing / Action Required,9,20,178000,34.5
+2026-Q2,SL.1- 📅 Sales Pipeline,e106d305-e168-4836-a0b2-a7bbd1e1e345,7.1- Invoice Sent,10,2,0,90
